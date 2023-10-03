@@ -5,7 +5,7 @@ const router = express.Router();
 router.get('/whoami', (req, res)=>{
     
     // Get the request headers
-
+    console.log(req.headers);
 
     
     const ipaddrs = req.headers.host;
