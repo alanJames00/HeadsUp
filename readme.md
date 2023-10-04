@@ -16,7 +16,7 @@ Following are the exposed api endpoints
 | Endpoint | Usage 
 | :---:   | :---: 
 | /api/whoami | returns json with a default configured request header information
-|
+
 
 ### Configuration
 The default configuration for the api/whoami
@@ -47,7 +47,7 @@ Go to /api/routes.js file and edit the following parameters for custom header re
 | req.header.connection | connection type
 | req.header['user-agent'] | UserAgent of the client
 | req.header['accept-language] | client language
-|
+
 
 <!-- 
 {
