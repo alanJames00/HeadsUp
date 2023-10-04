@@ -46,7 +46,7 @@ Go to /api/routes.js file and edit the following parameters for custom header re
 | req.header.host | ip address of client
 | req.header.connection | connection type
 | req.header['user-agent'] | UserAgent of the client
-| req.header['accept-language] | client language
+| req.header['accept-language'] | client language
 
 
 <!-- 
